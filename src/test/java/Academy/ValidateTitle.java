@@ -38,7 +38,7 @@ public class ValidateTitle extends Base {
 	  
 	   Logout lo= new Logout(driver);
 	 String subtitle = lo.getTitle().getText();
-	 Assert.assertEquals(subtitle, "Logged In Successfull");
+	 Assert.assertEquals(subtitle, "Logged In Successfully");
 	  
 	//  lo.logoutButton().click();
 	  
